@@ -139,7 +139,7 @@
     padding: 0;
   }
   .nav-active .w1,
-.nav-active #header.nospace .header-holder {
+  .nav-active #header.nospace .header-holder {
     margin-left: -260px;
     margin-right: 260px;
   }
@@ -183,7 +183,7 @@
     line-height: 30px;
   }
   .main-banner .btn-bottom,
-.main-banner .slick-dots {
+  .main-banner .slick-dots {
     bottom: 20px;
   }
   .main-banner .slick-arrow {

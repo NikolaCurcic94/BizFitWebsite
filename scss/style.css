@@ -383,7 +383,7 @@ img {
 }
 @media (max-width: 767px) {
   .navigation .page-numbers,
-.navigation-comments .page-numbers {
+  .navigation-comments .page-numbers {
     padding: 0;
   }
 }
@@ -401,9 +401,9 @@ img {
 }
 @media (max-width: 767px) {
   .navigation .next,
-.navigation .prev,
-.navigation-comments .next,
-.navigation-comments .prev {
+  .navigation .prev,
+  .navigation-comments .next,
+  .navigation-comments .prev {
     padding: 0.2em;
   }
 }
@@ -429,7 +429,7 @@ img {
 }
 @media (max-width: 767px) {
   .navigation-single .next a,
-.navigation-single .prev a {
+  .navigation-single .prev a {
     padding: 0.2em;
   }
 }
