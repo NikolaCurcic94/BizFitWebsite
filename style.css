@@ -89,6 +89,16 @@ img {
   height: auto;
 }
 
+/*header------------------------------------------------------------------*/
+.logo {
+  width: 150px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .comment-form input[type="text"],
 .search-form input[type="text"],
 .post-password-form input[type="text"],
@@ -986,7 +996,7 @@ button,
 }
 
 #header .header-holder {
-  padding: 32px 0 25px;
+  /* padding: 32px 0 25px; */
   -webkit-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;

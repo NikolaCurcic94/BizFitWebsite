@@ -891,6 +891,7 @@ button,
 }
 #header.nospace .logo {
   color: #fff;
+  width: 150px;
 }
 #header.nospace .logo a {
   color: #fff;
@@ -962,6 +963,7 @@ button,
 	9. Page logo styles   /  .logo
 -------------------------------------------------------------------*/
 .logo {
+  width: 150px;
   color: #363636;
   font: 500 32px/34px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -970,9 +972,17 @@ button,
   transition: all ease 0.3s;
 }
 
+.header-logo {
+  width: 150px;
+}
+
 /*------------------------------------------------------------------
 	10. Page navigation styles   /  #nav
 -------------------------------------------------------------------*/
+.header-logo {
+  width: 150px;
+}
+
 #nav {
   float: right;
   margin: 0 59px 0 0;
@@ -2791,7 +2801,8 @@ button,
 .post-widget .head a {
   color: #363636;
 }
-.post-widget .head, .post-widget .head add {
+.post-widget .head,
+.post-widget .head add {
   font-size: 14px;
   margin: -2px 0 4px;
 }
